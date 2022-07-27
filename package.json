@@ -1,7 +1,7 @@
 {
-  "name": "09tut",
+  "name": "10tut",
   "version": "1.0.0",
-  "description": "MVC in Express Tutorial",
+  "description": "Authentication Express Tutorial",
   "main": "index.js",
   "scripts": {
     "start": "node server",
@@ -13,6 +13,7 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "date-fns": "^2.29.1",
     "express": "^4.18.1",
